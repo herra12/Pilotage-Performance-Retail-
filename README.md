@@ -1,31 +1,22 @@
-# Pilotage-Performance-Retail-
-Data Warehouse et Dashboard pour Ventes, Produits et Supply Chain
-Objective
-This project involves retail purchase analysis with data modeling in Google BigQuery (fact and dimension tables), followed by connection to Power BI to create interactive dashboards for tracking sales, analyzing product performance, and optimizing supply management using Pareto analysis.
+# Retail Analytics Dashboard
 
-Technologies Used
-Google BigQuery: Data modeling and storage in fact and dimension tables.
+## Objective
+This project involves analyzing retail purchases with data modeling in **Google BigQuery** (fact and dimension tables), followed by connecting to **Power BI** to create interactive dashboards that track sales, analyze product performance, and optimize inventory management through Pareto analysis.
 
-Power BI: Data visualization with interactive dashboards.
+## Technologies Used
+- **Google BigQuery**: Data modeling and storage in fact and dimension tables.
+- **Power BI**: Data visualization with interactive dashboards.
+- **DAX**: Advanced calculations in Power BI to optimize performance.
+- **SQL**: Data creation and management in BigQuery.
+- **Excel**: Raw data source.
 
-DAX: Advanced calculations in Power BI for performance optimization.
+## Project Steps
+1. **Data Modeling in BigQuery**: Extraction and preparation of the data.
+2. **Power BI Dashboard Creation**: Visualization of KPIs (sales, overstock products, etc.).
+3. **Product Performance Analysis**: Optimization of inventory and stock management.
+4. **Forecasting Model Creation**: To predict product demand.
 
-SQL: Data creation and management in BigQuery.
-
-Excel: Source of raw data.
-
-Project Steps
-Data Modeling in BigQuery: Data extraction and preparation.
-
-Power BI Dashboard Creation: Visualization of KPIs (sales, overstocked products, etc.).
-
-Product Performance Analysis: Optimization of supply and inventory management.
-
-Forecast Model Creation: To predict product demand.
-
-Results
-Interactive dashboard for tracking sales and margins.
-
-Visual analysis of overstocked products to optimize orders.
-
-Supply needs prediction based on Pareto analysis.
+## Results
+- Interactive dashboard to track sales and margins.
+- Visual analysis of overstock products to optimize orders.
+- Forecasting supply needs based on Pareto analysis.
